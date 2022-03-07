@@ -17,6 +17,7 @@ public class RenameMeDTO {
     private long id;
     private String str1;
     private String str2;
+    private String test;
 
     public RenameMeDTO(String dummyStr1, String dummyStr2) {
         this.str1 = dummyStr1;
