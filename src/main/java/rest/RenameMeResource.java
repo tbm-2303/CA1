@@ -22,7 +22,7 @@ public class RenameMeResource {
     @GET
     @Produces({MediaType.APPLICATION_JSON})
     public String demo() {
-        return "{\"msg\":\"Hello World ETSTSTSTSTS\"}";
+        return "{\"msg\":\"Hello World\"}";
     }
     @Path("count")
     @GET
